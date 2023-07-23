@@ -6,6 +6,8 @@ using a LSP server for autocompleting abbreviations.
 
 You can define your abbreviations in a TOML file and use it in Helix.
 
+![helix abbrevs demo](helix-abbrevs-ls.gif)
+
 
 ## Install
 ```

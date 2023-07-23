@@ -1,16 +1,20 @@
 {
   "name": "helix-abbrevs-ls",
   "version": "1.0.0",
-  "description": "",
+  "description": "Language Server for abbreviations in Helix",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run build && npm link",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["lsp","helix","abbreviations","abbrev"],
+  "author": "Rajasegar Chandran",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajasegar/helix-abbrevs-ls"
+  },
+  "license": "MIT",
   "dependencies": {
     "@types/node": "^20.4.0",
     "toml": "^3.0.0",

@@ -1,5 +1,5 @@
 # helix-abbrevs-ls
-Helix abbreviations Language Server
+Language Server for using abbreviations in Helix 
 
 This package allows you to add abbreviations to the [Helix](https://helix-editor.com) editor
 using a LSP server for autocompleting abbreviations.
@@ -10,6 +10,8 @@ You can define your abbreviations in a TOML file and use it in Helix.
 
 
 ## Install
+You need [Node.js](https://nodejs.org/en) installed on your machine.
+
 ```
 npm i -g helix-abbrevs-ls
 ```

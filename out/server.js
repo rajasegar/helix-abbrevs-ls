@@ -75,6 +75,11 @@ connection.onCompletion((textDocumentPosition) => {
     }
     return [];
 });
+// This handler resolve additional information for the item selected in
+// the completion list.
+connection.onCompletionResolve((item) => {
+    return item;
+});
 documents.listen(connection);
 connection.listen();
 //# sourceMappingURL=server.js.map

@@ -107,6 +107,11 @@ connection.onCompletion((textDocumentPosition: TextDocumentPositionParams): Comp
   return [];
 });
 
+// This handler resolve additional information for the item selected in
+// the completion list.
+connection.onCompletionResolve((item: CompletionItem): CompletionItem => {
+  return item;
+});
 
 documents.listen(connection);
 
